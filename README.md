@@ -89,4 +89,4 @@ The documentation for the parser can be found in the [README.md](https://github.
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
 
 ## License
-The parser is licensed under the MIT License. See the LICENSE: [MIT](https://choosealicense.com/licenses/mit/)
+The parser is licensed under the MIT License. See the LICENSE: [MIT](https://github.com/Bhavyyadav25/GraphQL-Parser/blob/main/LICENSE)
