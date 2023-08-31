@@ -2,20 +2,15 @@
 A simple GraphQL parser written in C++. This parser can parse GraphQL queries and convert them to JSON.
 
 ## Features
--Parsing GraphQL queries
-
--Converting GraphQL queries to JSON
-
--Handling errors
-
--Handling nested queries
-
--Handling variables
+* Parsing GraphQL queries
+* Converting GraphQL queries to JSON
+* Handling errors
+* Handling nested queries
+* Handling variables
 
 ## Requirements
--C++11 compiler
-
--nlohmann/json library
+* C++11 compiler
+* nlohmann/json library
 
 ## Installation
 
@@ -25,11 +20,20 @@ cmake .
 make
 
 ## Usage
-```
-./graphql-parser <query.graphql>
-```
 
-This will parse the GraphQL query in query.graphql and print the JSON representation of the query to the console.
+1. Put your GraphQL query in `query.graphql`.
+
+2. Compile the parser by running the following command:
+```
+g++ graphql.cc -o <graphql>
+```
+* You can put any name for the build file, and replace `<graphql>` with the name of your build file.
+
+3. Run the build file by running the following command:
+```
+./graphql
+```
+* This will parse the GraphQL query in query.graphql and print the JSON representation of the query to the console.
 
 ## Example
 
