@@ -83,7 +83,7 @@ This is a valid GraphQL query that can be parsed by the parser. The output of th
 ```
 
 ## Documentation
-The documentation for the parser can be found in the README.md: README.md file.
+The documentation for the parser can be found in the [README.md](https://github.com/Bhavyyadav25/GraphQL-Parser/blob/main/README.md).
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you have any improvements or bug fixes.
